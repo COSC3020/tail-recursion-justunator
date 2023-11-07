@@ -15,3 +15,5 @@ implementation. What changes between iterations of the loop?
 Is the asymptotic complexity of tail-recursive Fibonacci different from the
 non-tail-recursive version? Why, or why not? Add your answer, including your
 reasoning, to this markdown file.
+
+The asymptotic complexity of tail-recursive Fibonacci and non-tail-recursive should be the same because when we convert it to tail-recursion, all it really does is reduces the stack size and not the actual runtime of the algorithm. While tail-recursion is technically more memory efficient, it still does the exact same thing as the non-tail-recursion version so it does not affect the asymptotic complxeity.
